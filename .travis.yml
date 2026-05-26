@@ -15,21 +15,21 @@ deploy:
   access_key_id:
     develop: AKIAJQOD25TNB4GR4LFQ
     uat: AKIAWKBC6B4EQLJ6KI6U
-    prod: AKIAZOKKB636GOXML5BE
+    prod: AKIATMSHFP3OEFUATAP7
   secret_access_key:
     develop:
       secure: "pNqzQgF5g5d7DetkKOO1yIlcdf9n2Y90TVC2ZyU7VWqXcMO2UWG6OvpcCH9+xbmp29bNVMoSD2NuF8YqjHIaAru5RRna6NH6HQTjc7QfXehkij7rKBs3Kl1b+PwV+DKeMTJuedoS91E3w4aH+k08Ktyeyw/WjbWFPVyq3djh5ZM="
     uat:
       secure: "e/Rvs/+tPgBjy3gSvxfFRxRxdvMN7yIdS9VaN8kqpD/1yxLNaLdIwWIaBsQsfuTXe37NB7DwPm5Ahx2y24HklmQjXSl7v4uHPIweh6BsHTaAww/Wguyyf5Y5F+sQUvH6o0ySjP7aUjLVFl3BGhYgSlV0Ng6L8V+zUaEQ0tfAjlJlPNsVUoa4esRNONs6q6gfEVeiqXMr/diydkNBAHfycB+wDrYeDWIoXEfTaMC/olIJpB0YQ0xYPDqAZ64AaVbknz5WFkvkN4y8LWWoqlv4tzygGE1EFzny9YR4+zHi4oO4aHA+tVefUc3yhvjH//t2YZusvXKRFSx+odng7ePmmFAHIo1l3R8Co8hXP0IkgqB1B9jA1cmRhkhy4PSFizhcOocWcEGN2rhh7RDJgmbgW/+NJF1Lhx5at2BGK6YYemrZjmKUw+hiKy6GvzDhquCdQsDDEYS/rFFyOAG6XGtiJBwJAD04gG/Ysxe4wgoEWKcpG2cuLVkQ5BgZlavuT6Th4acKXLMoSMbDh+t/bHIleRWncAvxMxfPWDbmyEP+nVFtBbafgtyBy/QR7gE8IC3XM3rEjVxf9/4y+W3l736cDqwmmmCuHpK05yEnZG5r149GqoTSN7bW801y6VyAsqRfNTJjHqIfWD4ZVlr66YxudRq9FV3qHnrQi2BJyDmIPV8="
     prod:
-      secure: "m2pLbhytAmVF1J3/q9Ix+0722le/+1JNQp5AnxDdZ4pxr8RCEzweUsgP/JOgrgLG92lZ2WHjRqxjqcVhPUBRRRjJKdD2l7sBOL1Wi9MvmTL7mCDens9QEifyclHld7kSkWB9URe6Mp90GkdVNcFHEBBdrqgUYtMkxrBX+wiYeFE="
+      secure: "VXiTjZI+bbDDQedpugFFz/9y8biA4BfYaiGIbBtBY1AZe74Anu9FjEWAHXxVRY5gxKnNr2p6pHFULHC76yyZK/JJ3+0KbpU9scrBOl2KSnX6/pph7ovaY39rVjb0sR7dOb4HJUDxJ77myuLv5Uw/qjSXEVW4PspScFBnAMX+5pKcBAQpoDOdDXrKSFZvXoXthjAufHQ5OeK7Gs0BCzSEqvUYRse69BAwuAlyf5h/X3hrX4cqHtUDx2E6IIhvpOk7bqMti1WfrqhP49Vt1H8vOBGzbtQ/z8cMFEz5M/qi0hlxoQ6BimERySxeOQ7KNM036ctbTSnhoJYqZfMN8rtzWojfZCunQ30OTp0Yq8npwYsajT6S86IfBBVmYjNPxKXzkDtGzWOyGS/8XYzSBCbL3XJa6CC9kEGzh8OwL4zeSXTwl9vHjSZ97U9Z01dDl8QMOUsya3geriQwiFybvMJ+8yVaPfOZpTtQrAPuag4BvA/rEY5sAaxhf1dzFLSW8VHihsahIqMuhryaRH8nNQ4/bHudG7nFWVE3RAnql+TVLNTwmZ7OOven6Ygnp7uL04WxKqLU9DEG+ErAE0K/+FTJWiDYOb/IitObutppqsOFITcLjxKz12Px+6GPv72Kj7JlW20jQeMNTNrG4NBCXtc63CZ22fwTh1EHliQM0CBSjVE="
   region: us-east-1
   app: bridge-exporter-$TRAVIS_BRANCH-application
   env: bridge-exporter-$TRAVIS_BRANCH
   bucket:
     develop: elasticbeanstalk-us-east-1-420786776710
     uat: elasticbeanstalk-gvbridge-exporter-uat-us-east-1-420786776710
-    prod: elasticbeanstalk-us-east-1-649232250620
+    prod: elasticbeanstalk-us-east-1-233151233756
   zip-file: target/Bridge-Exporter-2.0.war
   on:
     all_branches: true
