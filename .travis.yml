@@ -32,4 +32,4 @@ deploy:
     prod: elasticbeanstalk-us-east-1-233151233756
   zip-file: target/Bridge-Exporter-2.0.war
   on:
-    all_branches: true
+    branch: prod
